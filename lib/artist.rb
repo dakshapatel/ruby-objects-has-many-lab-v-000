@@ -19,7 +19,7 @@ end
 
 
 def add_song_by_name(name)
-  s = Song.new(song)
+  s = Song.new(name)
   self.add_song(s)
   s
 end
