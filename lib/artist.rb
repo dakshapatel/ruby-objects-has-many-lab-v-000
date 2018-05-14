@@ -12,15 +12,15 @@ def songs
 end
 
 def add_song(song)
-  @songs << song
-  song.artist = self
+  @songs << song #has many
+  song.artist = self # belongs to 
 end
 
 
-def add_song_by_name(name)
-  song = Song.new(name)
-  @song << name
-  song.artist = self
+def add_song_by_name(name )
+  s = Song.new(song)
+  self.add_song(s)
+   
 end
 
 
