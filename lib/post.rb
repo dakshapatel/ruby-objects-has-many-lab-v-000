@@ -7,7 +7,7 @@ def initialize(title)
 end
 
 def author_name
-  self.author.title
+  self.author.name
 end
 
 end
