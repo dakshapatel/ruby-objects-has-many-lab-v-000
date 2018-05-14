@@ -19,13 +19,13 @@ end
 
 def add_song_by_name(song_name)
   song = Song.new(song_name)
-  @song << song
+  @song << song_name
   song.artist = self
 end
 
 
 def song_count
-  @songs.total 
+  @songs.total
 end
 
 end
