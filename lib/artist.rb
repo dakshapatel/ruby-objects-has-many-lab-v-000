@@ -21,12 +21,11 @@ def add_song_by_name(name )
   s = Song.new(song)
   self.add_song(s)
   s
-
 end
 
 
 def song_count
-  @songs.total
+  self.songs.size
 end
 
 end
