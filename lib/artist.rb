@@ -13,13 +13,14 @@ end
 
 def add_song(song)
   @songs << song #has many
-  song.artist = self # belongs to 
+  song.artist = self # belongs to
 end
 
 
 def add_song_by_name(name )
   s = Song.new(song)
   self.add_song(s)
+  s
    
 end
 
