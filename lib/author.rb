@@ -11,8 +11,15 @@ def posts
 end
 
 def add_post(post)
-  @posts << post 
+  @posts << post
   post.author = self
 end
+
+def add_post_by_title(post_title)
+  p = Post.new(post_title)
+  self.add_post(p)
+  p
+end
+
 
 end
