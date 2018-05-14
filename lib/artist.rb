@@ -25,7 +25,7 @@ end
 
 
 def song_count
-
+  @songs.total 
 end
 
 end
