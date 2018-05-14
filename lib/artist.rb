@@ -26,7 +26,7 @@ end
 
 def song_count
   self.songs.size
-end 
+end
 
 def self.song_count
   @@song_count
